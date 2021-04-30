@@ -1,4 +1,4 @@
-PROJ_NAME = EmbeddedCaseStudy
+PROJ_NAME = EmbeddedSystems
 ELFFILE = $(PROJ_NAME).elf
 BUILD_DIR = Build
 
