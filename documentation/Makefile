@@ -1,4 +1,4 @@
-DOXY_FILE = CaseStudyEmbedded
+DOXY_FILE = EmbeddedSystems
 doc:
 	doxygen ./$(DOXY_FILE)
 
