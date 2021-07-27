@@ -15,7 +15,7 @@ int main(void)
 		/* Turns LED ON if and only if both switches ButtonSensor and Heater are closed */
 		Status=StatusOfLedActuator();
 		if(Status==ON){
-			Temp=ReadADC(ADCchannel); /*reads sensor data from ADCChannel*/
+			Temperature=ReadADC(ADCchannel); /*reads sensor data from ADCChannel*/
     	    TempType=GeneratePWM(Temperature);/*Generates PWM according to data received from sensor*/
 			USARTWriteString(TempType);/*Sends data to serial monitor*/
 		}
